@@ -3,7 +3,7 @@ import './styles/footer.css';
 export default function Footer() {
   return (
    <footer className='footer'>
-        <p>Developer using React</p>
+        <p>Developed using React&AXIOS</p>
    </footer>
   )
 }
