@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div className='home'>
             <h1>Welcome to Data Visulazation</h1>
-            <p>Click the button below to view the chat of our data.</p>
+            {!showChart && <p>Click the button below to view the chat of our data.</p>}
             {!showChart && <button className='btn-view-data' onClick={handleClick}>View Data</button>}
             {showChart && <Datafetcher></Datafetcher>}
             <Footer></Footer>
